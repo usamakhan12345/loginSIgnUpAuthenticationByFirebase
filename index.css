@@ -1,0 +1,117 @@
+body{
+    background-color: rgb(220, 224, 226);
+}
+
+
+
+
+.login{
+    height: 550px;
+    width: 350px;
+    position: relative;
+    background-color: whitesmoke;
+    left: 38%;
+    top: 50px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+hr{
+    width: 100%;
+    border: none; /* Remove the default border */
+    border-top: 4px solid blue; /* Set a new top border with the desired thickness and color */
+    margin: 10px 0;
+}
+.email{
+    margin-top: 40%;
+    margin-left: 20px;
+}
+#useremail{
+    height: 30px;
+    width: 95%;
+    border-radius: 5px;
+    border-color: blue;
+
+}
+#userpassword{
+    height: 30px;
+    width: 95%;
+    border-radius: 5px;
+    border-color: blue;
+}
+
+label {
+    font-size: 20px;
+    color: blue;
+}
+.password{
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+.head{
+    color: blue;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: 25px ;
+}
+#logniBtn{
+    margin-top: 60px;
+    margin-left: 120px;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    color: blue;
+    border-color: blue;
+}
+#signUpBtn{
+    margin-top: 60px;
+    margin-left: 120px;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    color: blue;
+    border-color: blue;
+}
+#logniBtn:hover{
+    background-color: blue;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size:medium;
+    transition: 0.5s;
+
+}
+#signUpBtn:hover{
+    background-color: blue;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size:medium;
+    transition: 0.5s;
+
+}
+p{
+    display: inline;
+    font-size: small;
+    text-align: center;
+    margin-top: 7px;
+    color: blue
+}
+.text{
+    margin-top: 7px;
+    text-align: center;
+
+}
+a{
+    color: blue;
+    font-weight: bold;
+    font-size: large;
+}
+
+#msg {
+    color: Red;
+    margin-top: 30px;
+    font-weight: bold;
+    text-align: center;
+    
+}

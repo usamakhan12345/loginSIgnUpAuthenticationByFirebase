@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(220, 224, 226);
+}
+
+
+.container{
+    height: 300px;
+    width: 350px;
+    position: relative;
+    top: 120px;
+    left: 40%;
+    border-radius: 10px;
+    background-color: whitesmoke ;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+#verifyBtn{
+    margin-top: 50px;
+    margin-left: 120px;
+    width: 130px;
+    height: 30px;
+    border-radius: 5px;
+    color: blue;
+    border-color: blue;
+}
+
+#verifyBtn:hover{
+    background-color: blue;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size:medium;
+    transition: 0.5s;
+}
+#email{
+    margin-top: 25px;
+    padding-top: 15px;
+    position: relative;
+    margin-left: 15px;
+
+}
+#verify{
+    padding-top: 15px;
+    margin-left: 15px;
+
+}
+
+h3{
+    color: blue;
+     
+}
