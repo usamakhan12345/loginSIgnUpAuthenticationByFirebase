@@ -3,20 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./main.css">
     <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
 </head>
 <body>
-    
     <div class="container">
-        <div  id="email">
-            <h3>User Email : </h3>
+        <div class="login">
+            <h3 class="head">Sign Up</h3>
+            <hr>
+            <div class="email">
+                <label for="">Email:</label> <br>
+                <input id="useremail" type="email" placeholder="Enter Email">
+            </div>
+            <div class="password">
+                <label for="">Password:</label> <br>
+                <input id="userpassword" type="password" placeholder="Enter Password">
+            </div>
+            <div>
+                <button id="signUpBtn">Sign Up</button>
+            </div>
+            <div class="text">
+                <span ><p>Already have an account?</p></span> <span> <a href="./login.html">Login</a> </span>
+            </div>
+            <div id="msg">
+
+            </div>
         </div>
-        <div id="verify">
-            <h3>Email Verify : </h3>
-        </div>
-        <button id="verifyBtn">Verify Email</button>
+
+      
+
     </div>
+
+
     <script type="module" src="./index.js"></script>
 </body>
 </html>

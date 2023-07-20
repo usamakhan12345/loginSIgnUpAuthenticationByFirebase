@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(220, 224, 226);
+}
+
+#image{
+    background-color: whitesmoke;
+    height: 180px;
+    width: 180px;
+    border-radius: 80% ;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: absolute ;
+    top: 50px;
+    left: 45%;
+    right: 50%;
+
+}
+#camera{
+    position: relative;
+    top: 10px;
+    left: 75px;
+    color: darkblue;
+}
+#imageShow{
+    overflow: hidden;
+    position: relative;
+    height: 180px;
+    width: 180px;
+}
